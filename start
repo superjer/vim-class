@@ -56,6 +56,5 @@ autocmd vimrc FileType text call VimClassSetup()
 nnoremap <a-right> :wn<cr>
 nnoremap <cr> :wn<cr>
 nnoremap <a-left> :wN<cr>
-nnoremap <a-cr> :wN<cr>
 next *.txt
 
