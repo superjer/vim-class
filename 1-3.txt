@@ -1,0 +1,14 @@
+	Vim Class 2022
+	1. Basic Survival
+	   Modes
+
+	Normal mode               <esc>
+
+	Insert mode               i
+
+	Visual mode               v
+
+	Command line mode         :
+
+	Special secret modes      ???
+

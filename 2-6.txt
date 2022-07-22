@@ -1,0 +1,12 @@
+	Vim Class 2022
+	2. Navigation
+	   Find & till
+
+        fx	find the next x in line
+
+        tx      till
+
+        Fx Tx   find and till backwards
+
+        ; ,     repeat same direction, opposite
+

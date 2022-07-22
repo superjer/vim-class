@@ -1,0 +1,15 @@
+	Vim Class 2022
+	6. Plugins
+	   Make life easier with a plugin manager
+
+	vim-plug by Junegunn
+	https://github.com/junegunn/vim-plug
+	
+	Example .vimrc config:
+
+        call plug#begin()
+        Plug 'maxbrunsfeld/vim-yankstack'
+        Plug 'airblade/vim-gitgutter'
+        Plug 'tpope/vim-surround'
+        call plug#end()
+

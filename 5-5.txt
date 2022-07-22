@@ -1,0 +1,20 @@
+	Vim Class 2022
+	5. Modes
+	   Insert mode tricks
+
+        ctrl-Y		copy line above
+        ctrl-E		copy line below
+
+	Example: coordinate_x = confabulate(z, y);
+		 c
+
+
+        ctrl-Xctrl-F	filename completion
+
+	Example: /etc/
+
+
+        ctrl-Xctrl-L	line completion
+
+	Example:
+        o

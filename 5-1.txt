@@ -1,0 +1,18 @@
+	Vim Class 2022
+	5. Modes
+	   Normal mode tricks
+
+        ctrl-A ctrl-X	add 1, xubtract 1
+
+        ==		auto-indent line
+        gqap		reflow paragraph
+
+        ~		change case
+        xp		swap characters
+
+	Some words some wroDs
+   some words some more words. Some words
+	some
+	words words words words words. A lot of words.
+		  Some words.
+

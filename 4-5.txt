@@ -1,0 +1,14 @@
+	Vim Class 2022
+	4. Objects
+	   Text objects: i vs. a
+
+	Think "in" vs. "around"
+
+        <verb>i"	It's "metal" ok?
+
+        <verb>a"	It's "metal" ok?
+
+        <verb>iw	Even more more   unicorns
+
+        <verb>aw	Even more more   unicorns
+

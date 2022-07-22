@@ -1,0 +1,16 @@
+	Vim Class 2022
+	6. Plugins
+	   My top 3
+
+	Yankstack
+	https://github.com/maxbrunsfeld/vim-yankstack
+	Press Ctrl+P until you paste what you wanted
+	
+	Git Gutter
+	https://github.com/airblade/vim-gitgutter
+	Always see Git status of each line
+	
+	Surround
+	https://github.com/tpope/vim-surround
+	Operate on "quotes" & (parens), e.g. ds" cs(
+

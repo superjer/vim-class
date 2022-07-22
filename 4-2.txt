@@ -1,0 +1,14 @@
+	Vim Class 2022
+	4. Objects
+	   Verby shortcuts
+
+        dd	delete line
+
+        D	delete rest of line
+
+        cc	change line
+
+        C	change rest of line
+
+        yy	yank link
+

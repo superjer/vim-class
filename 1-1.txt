@@ -1,0 +1,16 @@
+	Vim Class 2022
+	1. Basic Survival
+	   Undo & quit
+
+        u	undo
+
+        ctrl-R  redo
+
+        :q      quit
+
+        :q!     quit, no questions
+
+        :wq     write & quit
+
+        <esc>   back to Normal mode
+

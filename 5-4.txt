@@ -1,0 +1,32 @@
+	Vim Class 2022
+	5. Modes
+	   Visual mode & external commands (:!)
+
+	Go together like two things that go together really well
+
+        :'<,'>!wc
+        :'<,'>!column 
+        :'<,'>!sort | uniq -c
+
+        '<,'> indicates that the command is operating over the
+	range of the visual selection. You don't need to type it.
+
+operate
+distinguish
+deceive
+untangle
+devise
+remove
+witwanton
+degauss
+deceive
+verify
+scurryfunge
+enter
+deceive
+berate
+consume
+deceive
+insussurate
+rewind
+
