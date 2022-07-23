@@ -3,4 +3,4 @@
 
 To get started, open this file in Vim, then type this
  
-  :so start
+    :so start
