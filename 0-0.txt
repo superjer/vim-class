@@ -11,3 +11,6 @@
         <enter>		next slide
         alt-left-arrow	previous
 
+	Feel free to try edits directly within these slides.
+	Your changes will be discarded when you change slides.
+

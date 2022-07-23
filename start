@@ -53,8 +53,8 @@ function! VimClassSetup()
 endfun
 
 autocmd vimrc FileType text call VimClassSetup()
-nnoremap <a-right> :wn<cr>
-nnoremap <cr> :wn<cr>
-nnoremap <a-left> :wN<cr>
+nnoremap <a-right> :n!<cr>
+nnoremap <cr> :n!<cr>
+nnoremap <a-left> :N!<cr>
 next *.txt
 
