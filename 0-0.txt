@@ -8,6 +8,6 @@
         5. Modes
         6. Plugins
 
-        <enter>       next slide
-        alt-left      previous
+        <enter>		next slide
+        alt-left-arrow	previous
 

@@ -4,7 +4,7 @@
 
         /↑ /↓		recall
 
-        'smartcase'	do what I mean, E.g:  /Search
+        :set smartcase	do what I mean, E.g:  /Search
 
         /ctrl-F		search history
 

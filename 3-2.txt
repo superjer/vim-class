@@ -10,7 +10,7 @@
 
 	* Works with search:  /W<enter>gUen.n.nn.
 
-	* Works with blocks:  <c-V>jjer@w.ww.ww.
+	* Works with blocks:  ctrl-Vjjer@w.ww.ww.
 
 	.....  .....  .....   ..... .....    .....
 	.....  .....  .....   ..... .....    .....

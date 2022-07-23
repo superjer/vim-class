@@ -23,29 +23,29 @@ function! VimClassSetup()
   syn match mdjerurl "https.*"
   syn match mdjerplug "\CYankstack\|Git Gutter\|Surround"
 
-  hi mdjerwatermk ctermfg=235
-  hi mdjerh1      ctermfg=208
-  hi mdjerh2      ctermfg=208 cterm=italic
-  hi mdjerbox     ctermbg=160
-  hi mdjerkey     ctermfg=220
-  hi mdjerctrl    ctermfg=196
-  hi mdjerangle   ctermfg=27
-  hi mdjerset     ctermfg=127
-  hi mdjerx       ctermfg=199
-  hi mdjerdots    ctermfg=127
-  hi mdjero1      ctermbg=240
-  hi mdjero2      ctermbg=240
-  hi mdjero3      ctermbg=240
-  hi mdjero4      ctermbg=240
-  hi mdjero1c     ctermfg=16 ctermbg=228
-  hi mdjero2c     ctermfg=16 ctermbg=228
-  hi mdjero3c     ctermfg=16 ctermbg=228
-  hi mdjero4c     ctermfg=16 ctermbg=228
-  hi mdjerother   cterm=italic
-  hi mdjerrange   ctermfg=240
-  hi mdjerzsze    ctermfg=199
-  hi mdjerurl     ctermfg=82 cterm=underline
-  hi mdjerplug    ctermfg=27
+  hi mdjerwatermk ctermfg=235 guifg=#262626
+  hi mdjerh1      ctermfg=208 guifg=#ff8700
+  hi mdjerh2      ctermfg=208 guifg=#ff8700 cterm=italic gui=italic
+  hi mdjerbox                               ctermbg=160 guibg=#d70000
+  hi mdjerkey     ctermfg=220 guifg=#ffd700
+  hi mdjerctrl    ctermfg=196 guifg=#ff0000
+  hi mdjerangle   ctermfg=27  guifg=#005fff
+  hi mdjerset     ctermfg=127 guifg=#af00af
+  hi mdjerx       ctermfg=199 guifg=#ff00af
+  hi mdjerdots    ctermfg=127 guifg=#af00af
+  hi mdjero1                                ctermbg=240 guibg=#585858
+  hi mdjero2                                ctermbg=240 guibg=#585858
+  hi mdjero3                                ctermbg=240 guibg=#585858
+  hi mdjero4                                ctermbg=240 guibg=#585858
+  hi mdjero1c     ctermfg=16  guifg=#000000 ctermbg=228 guibg=#ffff87
+  hi mdjero2c     ctermfg=16  guifg=#000000 ctermbg=228 guibg=#ffff87
+  hi mdjero3c     ctermfg=16  guifg=#000000 ctermbg=228 guibg=#ffff87
+  hi mdjero4c     ctermfg=16  guifg=#000000 ctermbg=228 guibg=#ffff87
+  hi mdjerother                             cterm=italic gui=italic
+  hi mdjerrange   ctermfg=240 guifg=#585858
+  hi mdjerzsze    ctermfg=199 guifg=#ff00af
+  hi mdjerurl     ctermfg=82  guifg=#5fff00 cterm=underline gui=underline
+  hi mdjerplug    ctermfg=27  guifg=#005fff
 
   setlocal noet
   setlocal nocuc
