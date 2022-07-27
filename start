@@ -8,6 +8,8 @@ function! VimClassSetup()
   syn match mdjerangle "<[^>]\+>" contained containedin=mdjerkey
   syn match mdjerset "'[a-z]\+'" contained containedin=mdjerkey
   syn match mdjerx "\C\S\zsx" contained containedin=mdjerkey
+  syn match mdjerold "\C[/]\zsold" contained containedin=mdjerkey
+  syn match mdjernew "\C[/]\zsnew" contained containedin=mdjerkey
   syn match mdjerdots "\.\.\." contained containedin=mdjerkey
   syn match mdjero1 '\%7l"\zsmetal\ze"'
   syn match mdjero2 '\%9l\zs *"metal"\ze'
@@ -32,6 +34,8 @@ function! VimClassSetup()
   hi mdjerangle   ctermfg=27  guifg=#005fff
   hi mdjerset     ctermfg=127 guifg=#af00af
   hi mdjerx       ctermfg=199 guifg=#ff00af
+  hi mdjerold     ctermfg=199 guifg=#ff00af
+  hi mdjernew     ctermfg=82  guifg=#5fff00
   hi mdjerdots    ctermfg=127 guifg=#af00af
   hi mdjero1                                ctermbg=240 guibg=#585858
   hi mdjero2                                ctermbg=240 guibg=#585858
@@ -47,12 +51,17 @@ function! VimClassSetup()
   hi mdjerurl     ctermfg=82  guifg=#5fff00 cterm=underline gui=underline
   hi mdjerplug    ctermfg=27  guifg=#005fff
 
+  if has('win32')
+    set termguicolors
+    hi Normal ctermbg=16
+  endif
+
   setlocal noet
   setlocal nocuc
   setlocal nocul
 endfun
 
-autocmd vimrc FileType text call VimClassSetup()
+autocmd FileType text call VimClassSetup()
 nnoremap <a-right> :n!<cr>
 nnoremap <cr> :n!<cr>
 nnoremap <a-left> :N!<cr>

@@ -12,8 +12,8 @@
 	    <h1>Hi everybody!</h1>
 
 	    <span>Lorum ipsum sit dolor amet
-	      con carne vis verso maclatiere
-	      fum dun duf wuf bif fut</span>
+	      con (carne vis verso maclatiere
+	      fum dun duf wuf bif) fut</span>
 	    <span>Something else</span>
 
 	</body>

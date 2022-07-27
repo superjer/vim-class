@@ -8,9 +8,9 @@
 
         77gg 77G :77	line 77
 
-        ctrl-WW		next window
-
         zz		center on cursor
+
+
 
 
 

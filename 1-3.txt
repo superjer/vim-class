@@ -1,6 +1,6 @@
 	Vim Class 2022
 	1. Basic Survival
-	   Modes
+	   Common modes
 
 	Normal mode               <esc>
 
@@ -9,6 +9,4 @@
 	Visual mode               v
 
 	Command line mode         :
-
-	Special secret modes      ???
 

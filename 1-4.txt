@@ -1,6 +1,6 @@
 	Vim Class 2022
 	1. Basic Survival
-	   Ways into Insert Mode
+	   Ways into Insert mode
 
         i I a A		insert, append 
 

@@ -6,9 +6,7 @@
 
         O		other other end (blockwise)
 
-        gctrl-A		sequentially add 1, 2, 3, ... each line
-
-        $		end-of-all-lines
+        $		end-of-all-lines, try:  $A
 
         I A		insert, append on every line (blockwise)
 

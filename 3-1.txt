@@ -10,5 +10,5 @@
 
         gU...	UPPERCASE
 
-        gq...	reflow
+        gu...	lowercase (undercase?)
 

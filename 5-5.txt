@@ -11,7 +11,7 @@
 
         ctrl-Xctrl-F	filename completion
 
-	Example: /etc/
+	Example: ./R
 
 
         ctrl-Xctrl-L	line completion

@@ -1,0 +1,12 @@
+	Vim Class 2022
+	2. Navigation
+	   Search & substitute
+
+        /		search for...
+
+        n N		next hit, previous
+
+        :s/old/new	replace (substitute) old with new
+
+        :%s/old/new	replace on every line
+

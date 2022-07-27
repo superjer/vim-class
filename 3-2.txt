@@ -6,7 +6,7 @@
 
 	* Reinterprets command in new position
 
-	* Works with inserts:  ablah<esc>.
+	* Works with insert:  ablah <esc>.
 
 	* Works with search:  /W<enter>gUen.n.nn.
 
