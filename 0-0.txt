@@ -1,12 +1,12 @@
 	Vim Class 2022
 	Vim Class 2022
 
-        1. Basic Survival
-        2. Navigation
-        3. Verbs
-        4. Objects
-        5. Modes
-        6. Plugins
+	1. Basic Survival
+	2. Navigation
+	3. Verbs
+	4. Objects
+	5. Modes
+	6. Plugins
 
         :n   <enter>	next slide
         :N		previous slide

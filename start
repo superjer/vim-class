@@ -1,31 +1,33 @@
 function! VimClassSetup()
   syn match mdjerwatermk "\%1l.*"
-  syn match mdjerh1 "\%2l.*"
-  syn match mdjerh2 "\%3l.*"
-  syn match mdjerbox "▚▚▚▚.*"
-  syn match mdjerkey "\(        \|:  \zs\)[^ \t]\+"
-  syn match mdjerctrl "ctrl-\|alt-" contained containedin=mdjerkey
-  syn match mdjerangle "<[^>]\+>" contained containedin=mdjerkey
-  syn match mdjerset "'[a-z]\+'" contained containedin=mdjerkey
-  syn match mdjerx "\C\S\zsx" contained containedin=mdjerkey
-  syn match mdjerold "\C[/]\zsold" contained containedin=mdjerkey
-  syn match mdjernew "\C[/]\zsnew" contained containedin=mdjerkey
-  syn match mdjerdots "\.\.\." contained containedin=mdjerkey
-  syn match mdjero1 '\%7l"\zsmetal\ze"'
-  syn match mdjero2 '\%9l\zs *"metal"\ze'
-  syn match mdjero3 '\%11l\zsmore\ze \+unicorns'
-  syn match mdjero4 '\%13l\zsmore \+\zeunicorns'
-  syn match mdjero1c 'm' contained containedin=mdjero1
-  syn match mdjero2c 'm' contained containedin=mdjero2
-  syn match mdjero3c 'o' contained containedin=mdjero3
-  syn match mdjero4c 'o' contained containedin=mdjero4
-  syn match mdjerother 'other \zsother'
-  syn match mdjerrange "'<,'>" contained containedin=mdjerkey
-  syn match mdjerzsze "\\z[se]" contained containedin=mdjerkey
-  syn match mdjerurl "https.*"
-  syn match mdjerplug "\CYankstack\|Git Gutter\|Surround"
+  syn match mdjerbull    "^\t\([*]\|[0-9]\+[.]\)\ze "
+  syn match mdjerh1      "\%2l.*"
+  syn match mdjerh2      "\%3l.*"
+  syn match mdjerbox     "▚▚▚▚.*"
+  syn match mdjerkey     "\(        \|:  \zs\)[^ \t]\+"
+  syn match mdjerctrl    "ctrl-\|alt-" contained containedin=mdjerkey
+  syn match mdjerangle   "<[^>]\+>"    contained containedin=mdjerkey
+  syn match mdjerset     "'[a-z]\+'"   contained containedin=mdjerkey
+  syn match mdjerx       "\C\S\zsx"    contained containedin=mdjerkey
+  syn match mdjerold     "\C[/]\zsold" contained containedin=mdjerkey
+  syn match mdjernew     "\C[/]\zsnew" contained containedin=mdjerkey
+  syn match mdjerdots    "\.\.\."      contained containedin=mdjerkey
+  syn match mdjero1      '\%7l"\zsmetal\ze"'
+  syn match mdjero2      '\%9l\zs *"metal"\ze'
+  syn match mdjero3      '\%11l\zsmore\ze \+unicorns'
+  syn match mdjero4      '\%13l\zsmore \+\zeunicorns'
+  syn match mdjero1c     'm'           contained containedin=mdjero1
+  syn match mdjero2c     'm'           contained containedin=mdjero2
+  syn match mdjero3c     'o'           contained containedin=mdjero3
+  syn match mdjero4c     'o'           contained containedin=mdjero4
+  syn match mdjerother   'other \zsother'
+  syn match mdjerrange   "'<,'>"       contained containedin=mdjerkey
+  syn match mdjerzsze    "\\z[se]"     contained containedin=mdjerkey
+  syn match mdjerurl     "https.*"
+  syn match mdjerplug    "\CYankstack\|Git Gutter\|Surround"
 
   hi mdjerwatermk ctermfg=235 guifg=#262626
+  hi mdjerbull    ctermfg=208 guifg=#ff8700
   hi mdjerh1      ctermfg=208 guifg=#ff8700
   hi mdjerh2      ctermfg=208 guifg=#ff8700 cterm=italic gui=italic
   hi mdjerbox                               ctermbg=160 guibg=#d70000
@@ -63,9 +65,10 @@ endfun
 
 autocmd FileType text call VimClassSetup()
 nnoremap <a-right> :n!<cr>
-nnoremap <cr> :n!<cr>
-nnoremap <a-left> :N!<cr>
+nnoremap <cr>      :n!<cr>
+nnoremap <a-left>  :N!<cr>
 nnoremap <s-right> :n!<cr>
-nnoremap <s-left> :N!<cr>
+nnoremap <s-left>  :N!<cr>
 next *.txt
 
+" vim: filetype=vim
