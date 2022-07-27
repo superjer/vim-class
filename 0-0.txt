@@ -8,8 +8,8 @@
         5. Modes
         6. Plugins
 
-        <enter>		next slide
-        alt-left-arrow	previous
+        :n   <enter>	next slide
+        :N		previous slide
 
 	Feel free to try edits directly within these slides.
 	Your changes will be discarded when you change slides.
