@@ -3,7 +3,7 @@
 	   Going between files
 
         gf		go to file at cursor    /etc/passwd
-	                                        ./README.md
+						./README.md
 
         :set isfname	what counts as a file?
 

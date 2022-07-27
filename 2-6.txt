@@ -6,7 +6,7 @@
 
         tx      till
 
-        Fx Tx   find and till backwards
+        Fx Tx   find, till backwards
 
         ; ,     repeat same direction, opposite
 
