@@ -2,8 +2,6 @@
 	5. Modes
 	   Visual mode & external commands (:!)
 
-	Go together like two things that go together really well
-
         :'<,'>!wc
         :'<,'>!column 
         :'<,'>!sort | uniq -c

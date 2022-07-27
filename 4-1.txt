@@ -4,7 +4,7 @@
 
         ce		change to end-of-word
 
-        dW		delete WORD
+        dgg		delete to top of file
 
         dfx		delete find x
 

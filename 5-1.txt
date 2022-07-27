@@ -4,15 +4,16 @@
 
         ctrl-A ctrl-X	add 1, xubtract 1
 
-        ==		auto-indent line
-        gqap		reflow paragraph
+        >> << ==	indent, outdent, fix indentation
 
         ~		change case
+
         xp		swap characters
 
+        ga		get ascii at cursor, or unicode ⩐
+
 	Some words some wroDs
-   some words some more words. Some words
-	some
+   Some words some more words. Some words, and
 	words words words words words. A lot of words.
 		  Some words.
 

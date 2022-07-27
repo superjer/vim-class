@@ -2,7 +2,7 @@
 	5. Modes
 	   Visual mode tricks
 
-        o		other end of selection 😍
+        o		other end of selection
 
         O		other other end (blockwise)
 

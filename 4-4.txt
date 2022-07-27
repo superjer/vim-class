@@ -4,7 +4,6 @@
 
         <verb>ap	a paragraph	e.g:  dap
         <verb>i"	in quotes	e.g:  ci"
-        <verb>aW	a WORD		e.g:  daW
         <verb>i(	in parentheses	e.g:  vi(
         <verb>it	in tag		e.g:  dit
 
